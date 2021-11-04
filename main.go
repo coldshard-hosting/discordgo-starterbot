@@ -1,14 +1,14 @@
 package main
 
 import (
-	"github.com/bwmarrin/discordgo"
 	"log"
+	"github.com/bwmarrin/discordgo"
 )
 
 const token string = ""
 
 var (
-	BotId string
+	BotId  string
 	Prefix string = "!"
 )
 
